@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.Theme.MealMate" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">#3F51B5</item>  <!-- PRIMARY COLOR -->
+    <item name="colorPrimaryVariant">#303F9F</item>  <!-- LIGHT PRIMARY COLOR -->
+    <item name="colorOnPrimary">#FFFFFF</item>  <!-- TEXT / ICONS -->
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">#CDDC39</item>  <!-- ACCENT COLOR -->
+    <item name="colorOnSecondary">#212121</item>  <!-- Assuming this remains for text/icons on secondary; adjust if needed -->
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>  <!-- Uses the light primary color variant -->
+    <!-- Customize your theme here. -->
+  </style>
+
+  <style name="Theme.MealMate" parent="Base.Theme.MealMate">
+    <!-- Inherited customizations -->
+  </style>
+</resources>
+
+
